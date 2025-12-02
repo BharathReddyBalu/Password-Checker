@@ -1,16 +1,3 @@
-"""
-Password Checker - Friendly password generator & strength checker
-Features:
-- Real-time entropy & strength bar
-- Eye toggle for viewing passwords
-- Multiple password suggestions (3 styles) + individual copy buttons
-- Mock breach check (local dictionary) with warning
-- Time-to-crack estimates based on entropy & attack rate
-- Custom-word mode to combine user words into memorable strong passwords
-- Password history (session) and export to .txt
-- Dark / Light mode with a soft glow highlight in dark mode
-- Uses pyperclip if available for clipboard; otherwise uses Tk clipboard
-"""
 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
@@ -463,3 +450,4 @@ if __name__ == "__main__":
     # final theme apply
     app.apply_theme()
     root.mainloop()
+
